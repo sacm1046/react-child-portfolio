@@ -6,5 +6,6 @@ import './styles/index.scss'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Main />
+    <Actions />
   </StrictMode>,
 )
