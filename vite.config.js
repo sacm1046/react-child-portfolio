@@ -10,7 +10,8 @@ export default defineConfig({
       filename: 'remoteEntry.js',
       exposes: {
         './Main': './src/components/main/index.jsx',
-        './Actions': './src/components/actions/index.jsx'
+        './Actions': './src/components/actions/index.jsx',
+        './List': './src/components/list/index.jsx'
       },
       shared: ['react', 'react-dom']
     })
