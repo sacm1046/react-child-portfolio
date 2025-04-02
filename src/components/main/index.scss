@@ -1,0 +1,21 @@
+.main {
+    &__container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px;
+        transition: 250ms;
+        gap: 10px;
+
+        &--light {
+            color: black;
+            background-color: white;
+        }
+
+        &--dark {
+            color: white;
+            background-color: black;
+        }
+    }
+}
