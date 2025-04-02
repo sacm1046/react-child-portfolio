@@ -1,0 +1,17 @@
+.comments {
+    &__container {
+        width: 100%;
+        padding: 40px;
+        transition: 250ms;
+
+        &--light {
+            color: black;
+            background-color: white;
+        }
+
+        &--dark {
+            color: white;
+            background-color: black;
+        }
+    }
+}

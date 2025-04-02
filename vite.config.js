@@ -11,7 +11,8 @@ export default defineConfig({
       exposes: {
         './Main': './src/components/main/index.jsx',
         './Actions': './src/components/actions/index.jsx',
-        './List': './src/components/list/index.jsx'
+        './List': './src/components/list/index.jsx',
+        './Comments': './src/components/comments/index.jsx'
       },
       shared: ['react', 'react-dom']
     })
